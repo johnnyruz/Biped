@@ -246,13 +246,11 @@ namespace biped
         private void MiddleText_PreviewMouseUp(object sender, MouseButtonEventArgs e)
         {
             RecordPedalBind(Pedal.MIDDLE);
-
         }
 
         private void RightText_PreviewMouseUp(object sender, MouseButtonEventArgs e)
         {
             RecordPedalBind(Pedal.RIGHT);
-
         }
 
         private void MenuQuit_Click(object sender, RoutedEventArgs e)
